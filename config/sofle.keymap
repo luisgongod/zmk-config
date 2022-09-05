@@ -60,12 +60,12 @@
         };
 
         combo_brace_L {
-            bindings = <&kp COLON>;
+            bindings = <&kp ENTER>;
             key-positions = <32 33>;
         };
 
         combo_brace_R {
-            bindings = <&kp ENTER>;
+            bindings = <&kp COLON>;
             key-positions = <33 34>;
         };
 
