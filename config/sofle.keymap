@@ -158,6 +158,11 @@
             bindings = <&kp QUESTION>;
             key-positions = <46 47 48>;
         };
+
+        Z_X_C {
+            bindings = <&kp TILDE>;
+            key-positions = <37 38 39>;
+        };
     };
 
     keymap {
