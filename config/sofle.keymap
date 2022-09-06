@@ -163,6 +163,11 @@
             bindings = <&kp TILDE>;
             key-positions = <37 38 39>;
         };
+
+        J_K_L {
+            bindings = <&kp DOUBLE_QUOTES>;
+            key-positions = <31 32 33>;
+        };
     };
 
     keymap {
@@ -177,11 +182,11 @@
             //               | GUI | ALT  | CTRL | LOWER|  ENTER |  | SPACE | RAISE| CTRL  | ALT   | GUI  |
 
             bindings = <
-           &gresc  &kp F1        &kp F2      &kp F3        &kp F4            &kp F5                                    &kp PAGE_DOWN  &kp PG_UP  &kp PAGE_DOWN     &kp PG_UP  &kp BACKSPACE     &kp DELETE
-          &kp TAB   &kp Q         &kp W       &kp E         &kp R             &kp T                                            &kp Y      &kp U          &kp I         &kp O          &kp P  &kp BACKSLASH
-   &kp LEFT_SHIFT   &kp A         &kp S       &kp D         &kp F             &kp G                                            &kp H      &kp J          &kp K         &kp L       &kp SEMI        &kp SQT
- &kp LEFT_CONTROL   &kp Z         &kp X       &kp C         &kp V             &kp B      &kp C_MUTE  &kp C_PLAY_PAUSE          &kp N      &kp M      &kp COMMA       &kp DOT       &kp FSLH      &kp ENTER
-                           &kp LEFT_WIN  &caps_word  &kp LEFT_ALT  &kp LEFT_CONTROL  &kp LEFT_SHIFT             &mo 2    &lt 1 SPACE    &kp TAB       &kp LALT  &kp LEFT_WIN
+           &gresc  &kp F1        &kp F2        &kp F3        &kp F4            &kp F5                                    &kp PAGE_DOWN  &kp PG_UP  &kp PAGE_DOWN     &kp PG_UP  &kp BACKSPACE     &kp DELETE
+          &kp TAB   &kp Q         &kp W         &kp E         &kp R             &kp T                                            &kp Y      &kp U          &kp I         &kp O          &kp P  &kp BACKSLASH
+   &kp LEFT_SHIFT   &kp A         &kp S         &kp D         &kp F             &kp G                                            &kp H      &kp J          &kp K         &kp L       &kp SEMI        &kp SQT
+ &kp LEFT_CONTROL   &kp Z         &kp X         &kp C         &kp V             &kp B      &kp C_MUTE  &kp C_PLAY_PAUSE          &kp N      &kp M      &kp COMMA       &kp DOT       &kp FSLH      &kp ENTER
+                           &kp NUMBER_1  &kp NUMBER_0  &kp LEFT_ALT  &kp LEFT_CONTROL  &kp LEFT_SHIFT             &mo 2    &lt 1 SPACE    &kp TAB       &kp LALT  &kp LEFT_WIN
             >;
 
             sensor-bindings = <&inc_dec_kp UP DOWN_ARROW &inc_dec_kp C_VOL_UP C_VOL_DN>;
