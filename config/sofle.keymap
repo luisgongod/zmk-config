@@ -80,7 +80,7 @@
         };
 
         Dot_Backslash {
-            bindings = <&sk UNDERSCORE>;
+            bindings = <&kp UNDERSCORE>;
             key-positions = <47 48>;
         };
 
@@ -168,6 +168,11 @@
             bindings = <&kp DOUBLE_QUOTES>;
             key-positions = <31 32 33>;
         };
+
+        J_L {
+            bindings = <&kp UNDER>;
+            key-positions = <31 33>;
+        };
     };
 
     keymap {
@@ -221,11 +226,11 @@
             //              |      |       |       |      |      |  |      |      |      |       |      |
 
             bindings = <
- &bt BT_CLR  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2     &bt BT_SEL 3  &bt BT_SEL 4                     &trans         &trans      &trans      &trans            &trans    &trans
-     &trans        &trans        &trans   &kp K_CMENU  &kp PRINTSCREEN        &trans                   &kp HOME  &kp PAGE_DOWN      &kp UP   &kp PG_UP           &kp END   &kp DEL
-     &trans        &trans        &trans       &kp INS          &kp DEL        &trans                   &kp PLUS       &kp LEFT    &kp DOWN   &kp RIGHT  &kp LEFT_CONTROL  &kp BSPC
-     &trans    &kp K_UNDO     &kp K_CUT    &kp K_COPY      &kp K_PASTE        &trans  &trans  &trans  &kp MINUS     &kp C_PREV  &kp C_PREV  &kp C_NEXT            &trans    &trans
-                                 &trans        &trans           &trans        &trans  &trans  &trans     &trans         &trans      &trans      &trans
+ &bt BT_CLR  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2     &bt BT_SEL 3  &bt BT_SEL 4                     &trans         &trans      &trans     &trans          &trans  &trans
+     &trans        &trans        &trans   &kp K_CMENU  &kp PRINTSCREEN        &trans                   &kp PLUS  &kp PAGE_DOWN      &kp UP  &kp PG_UP          &trans  &trans
+     &trans        &trans        &trans       &kp INS          &kp DEL        &trans                  &kp MINUS       &kp LEFT    &kp DOWN  &kp RIGHT  &kp LEFT_SHIFT  &trans
+     &trans    &kp K_UNDO     &kp K_CUT    &kp K_COPY      &kp K_PASTE        &trans  &trans  &trans     &trans       &kp HOME  &kp C_PREV    &kp END          &trans  &trans
+                                 &trans        &trans           &trans        &trans  &trans  &trans     &trans         &trans      &trans     &trans
             >;
 
             sensor-bindings = <&inc_dec_kp K_SCROLL_UP K_SCROLL_DOWN &inc_dec_kp PG_UP PG_DN>;
