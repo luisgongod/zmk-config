@@ -151,7 +151,7 @@
 
         M_Coma_Dot {
             bindings = <&kp HASH>;
-            key-positions = <31 33 32>;
+            key-positions = <45 46 47>;
         };
 
         Coma_Dot_Slash {
