@@ -139,6 +139,36 @@
             bindings = <&kp LEFT_WIN>;
             key-positions = <37 38 39>;
         };
+
+        R_T {
+            bindings = <&kp AT>;
+            key-positions = <17 16>;
+        };
+
+        F_G {
+            bindings = <&kp MINUS>;
+            key-positions = <28 29>;
+        };
+
+        V_B {
+            bindings = <&kp EXCL>;
+            key-positions = <41 40>;
+        };
+
+        Y_U {
+            bindings = <&kp PERCENT>;
+            key-positions = <18 19>;
+        };
+
+        H_J {
+            bindings = <&kp PLUS>;
+            key-positions = <30 31>;
+        };
+
+        N_M {
+            bindings = <&kp SINGLE_QUOTE>;
+            key-positions = <44 45>;
+        };
     };
 
     keymap {
