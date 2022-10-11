@@ -13,9 +13,9 @@
     combos {
         compatible = "zmk,combos";
 
-        new_combo {
-            bindings = <&trans>;
-            key-positions = <32 31>;
+        cmbo {
+            bindings = <&kp AT>;
+            key-positions = <20 21>;
         };
     };
 
