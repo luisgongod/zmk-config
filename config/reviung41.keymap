@@ -14,14 +14,174 @@
     combos {
         compatible = "zmk,combos";
 
-        cmbo {
+        U_I {
+            bindings = <&kp DOUBLE_QUOTES>;
+            key-positions = <7 8>;
+        };
+
+        I_O {
+            bindings = <&kp SINGLE_QUOTE>;
+            key-positions = <8 9>;
+        };
+
+        O_P {
+            bindings = <&kp QUESTION>;
+            key-positions = <9 10>;
+        };
+
+        J_K {
             bindings = <&kp BACKSPACE>;
             key-positions = <19 20>;
         };
 
-        esc {
-            bindings = <&kt ESC>;
+        K_L {
+            bindings = <&kp LEFT_CONTROL>;
+            key-positions = <20 21>;
+        };
+
+        L_Semi {
+            bindings = <&kp BACKSLASH>;
+            key-positions = <21 22>;
+        };
+
+        M_Coma {
+            bindings = <&kp RIGHT_PARENTHESIS>;
+            key-positions = <31 32>;
+        };
+
+        Coma_Dot {
+            bindings = <&kp RIGHT_BRACKET>;
+            key-positions = <32 33>;
+        };
+
+        Dot_Backslash {
+            bindings = <&kp RIGHT_BRACE>;
+            key-positions = <33 34>;
+        };
+
+        Q_W {
+            bindings = <&kp EXCLAMATION>;
+            key-positions = <1 2>;
+        };
+
+        W_E {
+            bindings = <&kp PERCENT>;
+            key-positions = <2 3>;
+        };
+
+        E_R {
+            bindings = <&kp UNDER>;
+            key-positions = <3 4>;
+        };
+
+        A_S {
+            bindings = <&kp AMPS>;
+            key-positions = <13 14>;
+        };
+
+        S_D {
+            bindings = <&kp ESC>;
             key-positions = <14 15>;
+        };
+
+        D_F {
+            bindings = <&kp COLON>;
+            key-positions = <15 16>;
+        };
+
+        Z_X {
+            bindings = <&kp LEFT_BRACE>;
+            key-positions = <25 26>;
+        };
+
+        X_C {
+            bindings = <&kp LEFT_BRACKET>;
+            key-positions = <26 27>;
+        };
+
+        C_V {
+            bindings = <&kp LEFT_PARENTHESIS>;
+            key-positions = <28 29>;
+        };
+
+        U_I_O {
+            bindings = <&kp CARET>;
+            key-positions = <7 8 9>;
+        };
+
+        I_O_P {
+            bindings = <&kp TILDE>;
+            key-positions = <8 9 10>;
+        };
+
+        W_E_R {
+            bindings = <&kp DOLLAR>;
+            key-positions = <2 3 4>;
+        };
+
+        Q_W_E {
+            bindings = <&kp GRAVE>;
+            key-positions = <1 2 3>;
+        };
+
+        M_Coma_Dot {
+            bindings = <&kp ASTRK>;
+            key-positions = <31 32 33>;
+        };
+
+        Coma_Dot_Slash {
+            bindings = <&kp SLASH>;
+            key-positions = <32 33 34>;
+        };
+
+        Z_X_C {
+            bindings = <&kp PIPE>;
+            key-positions = <25 26 27>;
+        };
+
+        R_T {
+            bindings = <&kp EQUAL>;
+            key-positions = <4 5>;
+        };
+
+        F_G {
+            bindings = <&kp HASH>;
+            key-positions = <16 17>;
+        };
+
+        V_B {
+            bindings = <&kp LESS_THAN>;
+            key-positions = <28 29>;
+        };
+
+        Y_U {
+            bindings = <&kp PLUS>;
+            key-positions = <6 7>;
+        };
+
+        H_J {
+            bindings = <&kp MINUS>;
+            key-positions = <18 19>;
+        };
+
+        N_M {
+            bindings = <&kp GREATER_THAN>;
+            key-positions = <30 31>;
+        };
+
+        S_D_F {
+            bindings = <&kp HOME>;
+            key-positions = <14 15 16>;
+        };
+
+        J_K_L {
+            bindings = <&kp END>;
+            key-positions = <19 20 21>;
+        };
+
+        A_S_D {
+            bindings = <&kp CAPSLOCK>;
+            key-positions = <13 14 15>;
         };
     };
 
