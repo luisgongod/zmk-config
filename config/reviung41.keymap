@@ -213,7 +213,7 @@
             bindings = <
  &trans   &kp F1   &kp F2  &kp F3  &kp F4   &kp F5            &kp PLUS  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp ASTERISK  &trans
  &trans   &kp F6   &kp F7  &kp F8  &kp F9  &kp F10            &kp MINUS  &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6     &kp SLASH  &trans
- &RIGHT_CONTROL  &kp F11  &kp F12  &trans  &trans   &trans            &kp EQUAL  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3         &none  &trans
+ &kp RIGHT_CONTROL  &kp F11  &kp F12  &trans  &trans   &trans            &kp EQUAL  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3         &none  &trans
                                              &trans     &trans  &kp ESC      &mo 3    &trans
             >;
         };
