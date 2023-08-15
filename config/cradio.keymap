@@ -103,7 +103,7 @@ X_C {
 
 C_V {
     bindings = <&kp LEFT_PARENTHESIS>;
-    key-positions = <35 1>;
+    key-positions = <31 12>;
 };
 
 U_I_O {
